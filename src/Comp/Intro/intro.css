@@ -1,0 +1,66 @@
+#intro{
+    height: calc(100vw -4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    
+}
+.introContent{position: absolute;
+top: 0; 
+    right: 0;
+    height: 100vh;
+    width: 100vh;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bg{
+    /* position: absolute; */
+    z-index: -1;
+    /* top: 0;  */
+    /* right: 0; */
+    object-fit: cover;
+}
+
+.hello{
+    font-size: 1.74rem;
+    font-weight: 100;
+}
+.introName{color: yellow;
+}
+.introPera{
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.btn{
+    background: white;
+    margin: 1rem 0rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+.imgbtn{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+
+}
+@media screen and (max-width:900px) {
+    .introContent{
+        /* right: auto; */
+        left: 0;
+    }   
+    
+}
+@media screen and (max-width:600px) {
+    .introContent{
+        right: -60vw;
+    }   
+    
+}
