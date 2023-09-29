@@ -9,3 +9,47 @@
     text-align: center;
     margin: 0 auto;
 }
+.skillsTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+
+}
+.skillsDesc{
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 51rem;
+    padding: 0 2rem;
+
+}
+.skillBars{
+    /* display: flex; */
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+.skillbar{
+
+    /* border: white; */
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(41, 38, 38);
+}
+.skillBarImg{
+object-fit: cover;
+height: 3rem;
+margin-right: 2rem;
+background-color: aliceblue;
+
+
+}
+.skillBarText p{
+    font-size: 0.5rem;
+    font-weight: 200;
+
+    
+}

@@ -1,0 +1,46 @@
+#aboutMe{
+        /* background-color: antiquewhite; */
+        min-height: calc(100vw -4rem);
+        width: 60vw;
+        max-width: 500rem;
+        margin: 0 auto;
+        margin-top: 2vw;
+        padding: 5vw 0vw;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    
+}
+.aboutMeDesc{
+    text-align: left;
+    padding: 1vw;
+
+
+}
+.aboutinfo{
+    display: flex;
+    
+}
+.aboutInfo1{
+    text-align: left;
+    list-style: none;
+    margin-right: 3vw;
+}
+.aboutInfo2{
+    text-align: left;
+    list-style: none;
+    margin-right: 3vw;
+}
+.aboutInfo1 li{
+     margin-right: 1vw;
+     padding: 1rem ;
+}
+.aboutInfo2 li{
+    margin-right: 1vw;
+    padding: 1rem ;
+    
+
+}

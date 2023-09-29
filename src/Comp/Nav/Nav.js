@@ -8,10 +8,10 @@ const Nav = () => {
     <nav className="navbar">
       <img src={logo} alt="logo" className="logo" />
       <div className="desktopMenu">
-        <Link className="desktopManuListItem">Home</Link>
-        <Link className="desktopManuListItem">About</Link>
-        <Link className="desktopManuListItem">Portfolio</Link>
-        <Link className="desktopManuListItem">Clients</Link>
+        <Link activeClass="active" to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopManuListItem">Home</Link>
+        <Link className="desktopManuListItem" activeClass="active" to='aboutMe' spy={true} smooth={true} offset={-50} duration={500}>About</Link>
+        <Link className="desktopManuListItem"activeClass="active" to='skills' spy={true} smooth={true} offset={-40  } duration={500} >Skills</Link>
+        <Link className="desktopManuListItem"activeClass="active" to='contectme' spy={true} smooth={true} offset={-100} duration={500}>Contect</Link>
       </div>
       <button className="desktopMenuBtn">
         <img  className="desktopManuImg"  src={contectimg} alt="img" />Contect Me
