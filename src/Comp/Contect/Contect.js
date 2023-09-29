@@ -4,7 +4,7 @@ import "./Contect.css";
 import gitimg from "./github-.png";
 import emailing from "./email.png";
 import linkedinimg from "./linkedin.png";
-import instapng from "./instagram-.png";
+import instapng from "./WhatsApp.svg.webp";
 import emailjs from "@emailjs/browser";
 
 const Contect = () => {
@@ -43,10 +43,16 @@ const Contect = () => {
             Submit
 </button>
           <div className="links">
-            <img src={gitimg} alt="" className="link" />
-            <img src={emailing} alt="" className="link" />
-            <img src={linkedinimg} alt="" className="link" />
-            <img src={instapng} alt="" className="link" />
+            <a href="https://github.com/Aanandchandel?tab=repositories"  > 
+              <img src={gitimg} alt="" className="link" />
+            </a>
+            <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=aanandchandel20@gmail.com"><img src={emailing} alt="" className="link" /></a>
+            <a href="https://www.linkedin.com/in/aanandchandel/">
+              <img src={linkedinimg} alt="" className="link" />
+            </a>
+            <a href="https://api.whatsapp.com/send/?phone=%2B917247226533&text&type=phone_number&app_absent=0">
+              <img src={instapng} alt="" className="link" />
+            </a>
           </div>
         </form>
       </div>

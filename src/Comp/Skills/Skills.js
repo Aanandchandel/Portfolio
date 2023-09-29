@@ -27,41 +27,41 @@ const Skills = () => {
           <img src={cssimg}className='skillBarImg' alt="" />
           <div className="skillBarText">
             <h2>CSS</h2>
-            <p>cshjksdhf ksehfkhs sldjv msldf, sdof ,sdfls f,sd`</p>
+            <p>used for describing the presentation and formatting of web documents</p>
           </div>
         </div>
         <div className="skillbar">
           <img src={jsimg}className='skillBarImg' alt="" />
           <div className="skillBarText">
             <h2>javascript</h2>
-            <p>sssssssg dffgdfsdf sdfsdfsd dfsdsdfsd sedfsdf sed</p>
+            <p> used for adding interactivity and functionality to web pages in web development</p>
           </div>
         </div>
         <div className="skillbar">
           <img src={mysqlimg} className='skillBarImg' alt="" />
           <div className="skillBarText">
             <h2>MySql</h2>
-            <p>dfgsdf  drgse degsd drg dsfgeg rfgsdf</p>
+            <p>allows you to store, manage, and retrieve structured data</p>
           </div>
         </div>
         <div className="skillbar">
           <img src={reactimg} className='skillBarImg' alt="" />
           <div className="skillBarText">
             <h2>React</h2>
-            <p>dfgsdf  drgse degsd drg dsfgeg rfgsdf</p>
+            <p>React is an open-source JavaScript library for building user interfaces,</p>
           </div>
         </div>
         <div className="skillbar">
           <img src={nodeimg} className='skillBarImg' alt="" />
           <div className="skillBarText">
             <h2>Node</h2>
-            <p>dfgsdf  drgse degsd drg dsfgeg rfgsdf</p>
+            <p>Node.js is a JavaScript runtime environment</p>
           </div>
         </div><div className="skillbar">
           <img src={expressimg} className='skillBarImg' alt="" />
           <div className="skillBarText">
             <h2>Express</h2>
-            <p>dfgsdf  drgse degsd drg dsfgeg rfgsdf</p>
+            <p>Express.js is a minimal and flexible Node.js web application framework</p>
           </div>
         </div>
 
