@@ -1,11 +1,12 @@
 #aboutMe{
-        /* background-color: antiquewhite; */
+        background-color: black;
         min-height: calc(100vw -4rem);
-        width: 60vw;
-        max-width: 500rem;
+        /* width: 60vw; */
+        /* max-width: 500rem; */
+        /* min-height: 80vh; */
         margin: 0 auto;
-        margin-top: 2vw;
-        padding: 5vw 0vw;
+        /* margin-top: 2vw; */
+        /* padding: 5vw 0vw; */
         text-align: center;
         display: flex;
         flex-direction: column;

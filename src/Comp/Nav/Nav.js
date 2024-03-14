@@ -1,22 +1,40 @@
-import React from "react";
-import "./Nav.css";
-import { Link } from "react-scroll";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import logo from "./logo.png";
-import contectimg from './contact.png'
+import contectimg from './contact.png';
+import "./Nav.css";
+
 const Nav = () => {
+  // Define useState hook at the top level of the component
+  const [imgCls,setImgCls]=useState("d")
+  const [navbar1,setnavbar1]=useState("navbar")
+  const [navClass, setNavClass] = useState("hide");
+
+  const toggleMenu = () => {
+    // Toggle navClass state when the menu is clicked
+    setNavClass(navClass === "hide" ? "mobNav" : "hide");
+    setImgCls(imgCls === "hide" ? "d" : "hide");
+    setnavbar1(navbar1==="navbar"?"navbar1":"navbar")
+  };
+
   return (
-    <nav className="navbar">
-      <img src={logo} alt="logo" className="logo" />
-      <div className="desktopMenu">
-        <Link activeClass="active" to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopManuListItem">Home</Link>
-        <Link className="desktopManuListItem" activeClass="active" to='aboutMe' spy={true} smooth={true} offset={-50} duration={500}>About</Link>
-        <Link className="desktopManuListItem"activeClass="active" to='skills' spy={true} smooth={true} offset={-40  } duration={500} >Skills</Link>
-        <Link className="desktopManuListItem"activeClass="active" to='contectme' spy={true} smooth={true} offset={-100} duration={500}>Contect</Link>
+    <nav className={`${navbar1}`}>
+      <img src={logo} alt="logo" className="logo" onClick={toggleMenu} />
+
+      {/* Apply the navClass dynamically to toggle visibility */}
+      <div className={`desktopMenu ${navClass}`}>
+        <Link className="desktopManuListItem" to="/">Home</Link>
+        <Link className="desktopManuListItem" to="/About">About</Link>
+        <Link className="desktopManuListItem" to="/Skills">Skills</Link>
+        <Link className="desktopManuListItem" to="/Contect">Contect</Link>
+        <Link className="desktopManuListItem" to="/Projects">Projects</Link>
       </div>
-      <button className="desktopMenuBtn">
-        <img  className="desktopManuImg"  src={contectimg} alt="img" />Contect Me
-       </button>
+
+      <button className={`desktopMenuBtn ${imgCls}`} >
+        <img className='desktopManuImg'  src={contectimg} alt="img" />Contect Me
+      </button>
     </nav>
   );
 };
+
 export default Nav;
