@@ -1,4 +1,4 @@
-@media screen and (min-width: 830px) and (max-width: 3000px){
+@media screen and (min-width: 650px) and (max-width: 3000px){
 
     #intro{
         position: absolute;
@@ -75,7 +75,7 @@
 }
 }
 
-@media screen and (min-width: 300px) and (max-width: 450px){
+@media screen and (min-width: 100px) and (max-width: 650px){
 #intro{
     background-image: url(../Projecs/bg.jpeg);
     background-size: cover;
