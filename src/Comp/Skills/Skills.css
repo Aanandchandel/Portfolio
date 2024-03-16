@@ -1,0 +1,119 @@
+@media screen and (min-width: 500px) and (max-width: 2000px){
+    
+    #skills{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .skillsTitle{
+        font-size: 3rem;
+        font-weight: 600;
+        padding-top: 6rem;
+        margin-bottom: 1.5rem;
+
+    }
+    .skillsDesc{
+        display: none;
+        font-weight: 400;
+        font-size: 1rem;
+        max-width: 51rem;
+        padding: 0 2rem;
+        
+    }
+    .skillBars{
+        /* display: flex; */
+        margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+.skillbar{
+    color: aliceblue;
+    
+    /* border: white; */
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(41, 38, 38);
+}
+.skillBarImg{
+    object-fit: cover;
+    height: 3rem;
+    margin-right: 2rem;
+    background-color: aliceblue;
+
+
+}
+.skillBarText p{
+    color: aliceblue;
+    font-size: 0.5rem;
+    font-weight: 200;
+    
+    
+}
+
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 450px){
+    
+#skills{
+    display: flex
+    ; flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* display: none; */
+    min-height: 90vh;
+    background-size: cover;
+    background-image: url(../Projecs/bg.jpeg);
+
+}
+.skillBarImg{
+    display: inline-block;
+    width: 2rem;
+}
+
+.skillBars{
+    /* display: none; */
+}
+.skillsTitle{
+    /* background-color: rgba(255, 127, 80,0.5); */
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    /* display: block; */
+    font-weight: bolder;
+    color: coral;
+
+}
+
+.skillBars{
+    padding-left: 1rem;
+    color: white;
+}
+.skillbar{
+    /* background-color: black; */
+    margin-top: 1.5rem;
+}
+
+.skillsDesc{display: none;
+}
+.skillBarText>h2{
+    display: inline;
+}
+.skillBarText>p{
+    top: 12px;
+    padding-left: 2px;
+    position: relative;
+    display: inline;
+}
+
+}
+

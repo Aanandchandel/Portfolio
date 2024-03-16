@@ -1,0 +1,129 @@
+@media screen and (min-width: 850px) and (max-width: 1500px){
+
+    .contectPage{
+        position: absolute;
+        top: 8rem;
+    min-height: calc(100vw -4rem);
+    width: 100vw;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contectDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+    
+}
+.contectForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+    
+}
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem; 
+    margin: 0.5rem;
+    padding: 0.5rem 1rem; 
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(40,40,40);
+    
+    
+}
+.submitBtn{
+    width: 6rem;
+    background: white;
+    border: none;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: o.75rem 3.5rem;
+    
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.link{object-fit: cover;
+    height: 3rem;
+ margin: 0 0.5rem;   
+
+}
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 500px){
+    .contectPage{
+        position: absolute;
+        top: 8rem;
+    min-height: calc(100vw -4rem);
+    width: 100vw;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contectDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+    
+}
+.contectForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+    
+}
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem; 
+    margin: 0.5rem;
+    padding: 0.5rem 1rem; 
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(40,40,40);
+    
+    
+}
+.submitBtn{
+    width: 6rem;
+    background: white;
+    border: none;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: o.75rem 3.5rem;
+    
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.link{object-fit: cover;
+    height: 3rem;
+ margin: 0 0.5rem;   
+
+}
+}

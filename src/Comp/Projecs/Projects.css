@@ -1,0 +1,168 @@
+@media screen and (min-width: 800px) and (max-width: 1500px){
+#projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    padding: 10px;
+    margin:  auto;
+    color: aliceblue;
+    height: auto;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0,0, 0.9);
+/* background-image: url('./pj1.jpeg'); */
+background-size: cover;
+}
+#pj{
+color: inherit;
+    background-color: black;
+}
+#project{
+
+    flex-wrap: wrap;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50vw;
+    background-color: aliceblue;
+    margin: 0.5rem auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: yellow;
+
+}
+#project>div:first-child{
+    margin: 1vw 0px 1vw 1vw;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#project>div:nth-child(2){
+    border-radius: 10px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 1rem 1rem 1rem;
+    width: 28rem;
+    height: 5rem;
+    /* background-color: black; */
+    background-color: black;
+    
+}
+
+#project>div:first-child>a>img{
+    width: 10rem ;
+ border-radius: 10px;
+ height: 5rem;   
+ box-sizing: border-box;
+}
+#project>div:nth-child(2)>h1:first-child{
+    display: inline-block;
+    /* background-color: burlywood; */
+}
+.play{
+    /* position: relative; */
+    left: 1rem;
+    color: white;
+    width: 5rem;
+    padding: 5px;
+    border:  1px solid yellow
+     /* rgb(221, 217, 217) */
+      ;
+    border-radius: 10px;
+  font-weight: 900;
+  font-size: 1.5rem;
+    text-decoration: none;
+    /* color: black; */
+    display: flex;
+    /* position: absolute; */
+    justify-content: center;
+    /* text-align: center; */
+    align-content: center;
+}
+.projectcode{
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: rgb(103, 168, 28);
+    /* background-color: blue; */
+}
+
+
+
+}
+
+/* ............... */
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+
+
+#projects{
+    margin-top: 2.5rem;
+    /* margin-top: -10rem; */
+    background-image: url(./bg.jpeg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.proimg{
+    border-radius: 1rem;
+margin: 1rem;
+    width: 75vw;
+}
+#project{
+    margin-top: 1rem;
+    border: 1px solid coral;
+    color: white;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+    /* width: 80vw; */
+    background-color: rgba(25, 25, 25,0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prodetail{
+    position: relative;
+    top: -1rem;
+    box-sizing: border-box;
+    /* padding-left: 1rem; */
+    width: 75vw;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.play{
+
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    padding: 0.2rem;
+    color: rgb(32, 29, 29);
+    /* margin-top: -10px; */
+    background-color: rgba(240, 248, 255,0.5);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.projectcode{
+    color: coral;
+    margin-bottom: 0.5rem;
+    margin-top: -1rem;
+}
+
+}
+
+   
