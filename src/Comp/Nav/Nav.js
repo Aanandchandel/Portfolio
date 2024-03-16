@@ -23,7 +23,7 @@ const Nav = () => {
 
       {/* Apply the navClass dynamically to toggle visibility */}
       <div className={`desktopMenu ${navClass}`}>
-        <Link className="desktopManuListItem" to="/">Home</Link>
+        <Link className="desktopManuListItem" to="/Portfolio">Home</Link>
         <Link className="desktopManuListItem" to="/About">About</Link>
         <Link className="desktopManuListItem" to="/Skills">Skills</Link>
         <Link className="desktopManuListItem" to="/Contect">Contect</Link>
